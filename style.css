@@ -37,18 +37,24 @@ nav a:hover {
 .introduccion {
   max-width: 1000px;
   margin: 30px auto 25px auto;
-  padding: 28px 30px;
-  background: linear-gradient(135deg, #1f3c88, #2f5fb3);
-  color: white;
-  border-radius: 14px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
-  text-align: center;
+  padding: 30px 35px;
+  background-color: white;
+  border-left: 8px solid #1f3c88;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
 }
 
 .introduccion p {
   margin: 0;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.8;
+  color: #1f3c88;
+  text-align: left;
+}
+
+.introduccion strong {
+  color: #16306e;
+  font-size: 22px;
 }
 
 main {
