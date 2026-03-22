@@ -114,6 +114,6 @@ footer {
   margin-top: 30px;
 }
 
-footer p {
-  margin: 0;
+footer {
+  background-color: red;
 }
