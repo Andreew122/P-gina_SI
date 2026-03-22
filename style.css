@@ -15,59 +15,26 @@ body {
 header {
   background: linear-gradient(135deg, #1f3c88, #2f5fb3);
   color: white;
-  padding: 20px 20px 22px 20px;
+  padding: 18px 20px;
   text-align: center;
 }
 
-h1 {
-  margin: 0;
-}
-
 nav {
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .intro-header {
-  max-width: 1000px;
-  margin: 18px auto 0 auto;
-  padding-top: 12px;
-  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  max-width: 950px;
+  margin: 12px auto 0 auto;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .intro-header p {
   margin: 0;
-  font-size: 17px;
-  line-height: 1.5;
-  color: rgba(255, 255, 255, 0.95);
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 12px;
-  font-weight: bold;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-.intro-header {
-  max-width: 1000px;
-  margin: 30px auto 0 auto;
-  padding-top: 20px;
-  border-top: 1px solid rgba(255, 255, 255, 0.25);
-}
-
-.intro-header p {
-  margin: 0;
-  font-size: 22px;
-  line-height: 1.8;
-  color: white;
-}
-
-.intro-header strong {
-  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.92);
 }
 
 main {
