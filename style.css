@@ -27,6 +27,22 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.introduccion {
+  max-width: 1000px;
+  margin: 30px auto 25px auto;
+  padding: 28px 30px;
+  background: linear-gradient(135deg, #1f3c88, #2f5fb3);
+  color: white;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.introduccion p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.8;
+}
 main {
   max-width: 1000px;
   margin: 30px auto;
