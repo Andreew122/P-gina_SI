@@ -83,6 +83,15 @@ h2 {
 p, li {
   line-height: 1.6;
 }
+.lista-integrantes {
+  margin: 0;
+  padding-left: 22px;
+}
+
+.lista-integrantes li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
 
 footer {
   background-color: #1f3c88;
@@ -90,4 +99,7 @@ footer {
   text-align: center;
   padding: 15px;
   margin-top: 30px;
+}
+.bloque:last-child {
+  margin-bottom: 0;
 }
