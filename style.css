@@ -1,12 +1,15 @@
 html, body {
   margin: 0;
   padding: 0;
+  min-height: 100%;
   background-color: #f4f6f8;
 }
 
 body {
   font-family: Arial, sans-serif;
   color: #222;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -52,6 +55,7 @@ main {
   max-width: 1000px;
   margin: 30px auto 0 auto;
   padding: 0 20px;
+  flex: 1;
 }
 
 .bloque {
@@ -112,6 +116,10 @@ footer {
   text-align: center;
   padding: 15px;
   margin-top: 30px;
+}
+
+footer p {
+  margin: 0;
 }
 
 footer {
